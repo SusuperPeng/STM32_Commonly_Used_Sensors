@@ -1,1 +1,9 @@
-# STM32_Commonly_Used_Sensors
+int main()
+{
+  int val;
+  ADC_ReInit();
+  while(1)
+	{	
+       val=Read_ADC_Values();
+    }
+	}
