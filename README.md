@@ -9,9 +9,9 @@ int main()
   while(1)
   
   {	
-  
-       val=Read_ADC_Values();
+
+    val=Read_ADC_Values();
        
     }
     
-	}
+}
