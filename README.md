@@ -4,14 +4,14 @@ int main()
 
   int val;
   
-  ADC_ReInit();
-  
-  while(1)
-  
-  {	
+	ADC_ReInit();
 
-    val=Read_ADC_Values();
+ 	while(1)
+  
+	{	
        
-    }
-    
-}
+        val=Read_ADC_Values();
+
+	}
+ 
+}	
