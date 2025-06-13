@@ -12,7 +12,7 @@ float Filter_RC_Simple(float NEW_DATA,float OLD_DATA)
 #define Threshold_1     8       //阈值1用于一阶带参滤波器，变化角度大于此值时，计数增加
 #define Threshold_2     30      //阈值2用于一阶带参滤波器，计数值大于此值时，增大参数，增强滤波跟随
 
-static char new_flag = 0;//本次数据变化方向
+char new_flag = 0;//本次数据变化方向
 static float Filter=0.1; //滤波系数
 static char Filter_Counter=0;	//滤波计数器
 static float Filter_Weight = 0.1; //滤波权重(代表在滤波结果中的权重)
