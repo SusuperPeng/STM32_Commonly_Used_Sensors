@@ -3,13 +3,13 @@
 
 #include "stm32f10x.h"
  
-#define USART1_RX_ENABLE  0
+#define USART1_RX_ENABLE  1
 #define USART1_RX_SIZE  256
 #define USART1_TX_SIZE  256
 
 #if  USART1_RX_ENABLE
-extern char USART1_RX_FLAG;//½ÓÊÜÍê³É±êÖ¾Î»
-extern unsigned int USART1_RX_LENG ;//½ÓÊÕ×Ö½ÚÊı
+extern char USART1_RX_FLAG;//æ¥å—å®Œæˆæ ‡å¿—ä½
+extern unsigned int USART1_RX_LENG ;//æ¥æ”¶å­—èŠ‚æ•°
 extern char USART1_RXBUFF[USART1_RX_SIZE];
 #endif
 
